@@ -1,0 +1,126 @@
+#form {
+  /* height: 190vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 2s ease-in-out;
+}
+.last {
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.last img {
+  padding: 0px 13px;
+  transition: all 2s ease-in-out;
+}
+.last img:hover {
+  transform: scale(1.8);
+}
+#form img {
+  width: 60px;
+}
+.formgroup {
+  margin: 17px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.formgroup button {
+  margin-top: 32px;
+  width: 10%;
+  background-color: black;
+  color: yellow;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 10px;
+  transition: all 2s ease-in-out;
+}
+.formgroup button:hover {
+  background-color: blue;
+  color: white;
+}
+label {
+  padding-bottom: 2px;
+  font-size: 1.4rem;
+  color: navy;
+}
+
+input {
+  width: 30%;
+  outline-color: green;
+  height: 30px;
+  padding-left: 23px;
+  border-radius: 8px;
+  transition: all 3s;
+}
+input:hover {
+  transform: scale(1.1);
+}
+#contact h1 {
+  font-size: 3rem;
+  color: navy;
+  text-align: center;
+  margin: 32px;
+}
+#form::before {
+  content: "";
+  position: absolute;
+  height: 115%;
+  width: 100%;
+  background: url(/con\ bg.jpg) no-repeat center;
+  z-index: -1;
+}
+@media screen and (max-width: 1130px) {
+  #contact h1 {
+    font-size: 2.5rem;
+    margin: 25px 0px;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+  input {
+    height: 18px;
+  }
+  .formgroup button {
+    margin-top: 12px;
+    width: 8%;
+    font-size: 13px;
+    padding: 1px;
+  }
+  #form {
+    /* height: 190vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 2s ease-in-out;
+  }
+  #form::before {
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #contact h1 {
+    font-size: 1.5rem;
+    margin: 14px 0px;
+  }
+  #form::before {
+    height: 100%;
+  }
+  .formgroup {
+    margin-top: 24px;
+    margin-left: 34px;
+  }
+  input {
+    width: 49%;
+  }
+  .formgroup button {
+    margin-top: 12px;
+    width: 25%;
+  }
+  #form img {
+    width: 44px;
+  }
+}

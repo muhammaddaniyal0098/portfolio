@@ -1,0 +1,106 @@
+#banner img {
+  width: 100%;
+}
+#service h1 {
+  color: navy;
+  /* margin: 13px 0px; */
+  font-size: 3rem;
+  text-align: center;
+}
+.left h3 {
+  color: blue;
+  font-size: 4rem;
+  margin: 0px 52px;
+}
+.gd {
+  margin-bottom: 90px;
+}
+.left .arow {
+  height: 3px;
+  width: 70%;
+  background-color: green;
+  margin-bottom: 23px;
+}
+.left .arow2 {
+  height: 3px;
+  width: 90%;
+  background-color: red;
+  margin-bottom: 23px;
+}
+.left .item h2 {
+  color: black;
+  margin: 8px 23px;
+  cursor: pointer;
+}
+.left .item h2:hover {
+  color: red;
+  text-decoration: underline;
+}
+.left .item {
+  display: flex;
+  color: black;
+}
+#projects h2 {
+  font-size: 2.5rem;
+  color: blue;
+  margin-left: 23px;
+}
+h1 {
+  font-size: 5rem;
+  color: red;
+  margin: 34px;
+}
+#projects .img {
+  display: flex;
+  justify-content: center;
+}
+#projects .img img {
+  transition: all 3s ease-in-out;
+  width: 50%;
+  height: 50%;
+}
+#projects .img img:hover {
+  cursor: pointer;
+  /* transform: translateX(-1rem); */
+  transform: scale(1.1);
+}
+.img h3 {
+  padding: 23px;
+}
+@media screen and (max-width: 1130px) {
+  #projects .img img {
+    width: 30%;
+    height: 30%;
+  }
+  .left h3 {
+    font-size: 2.5rem;
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #service h1 {
+    margin: 2px 0px;
+    font-size: 2rem;
+  }
+  .gd {
+    margin-bottom: 22px;
+  }
+  .left h3 {
+    font-size: 1.5rem;
+  }
+  .left .item h2 {
+    margin: 8px 7px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 25px;
+  }
+  #projects h2 {
+    font-size: 1.5rem;
+    margin-left: 9px;
+  }
+  .img h3 {
+    padding: 0px;
+  }
+}
