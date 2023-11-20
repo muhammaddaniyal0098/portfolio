@@ -196,7 +196,7 @@
   }
   #about .left {
     width: 140px;
-    margin-right: 7px;
+    margin-right: 2px;
   }
   #about .left h1 {
     font-size: 12px;
@@ -229,7 +229,7 @@
     margin-bottom: 5px;
   }
   #about .right {
-    padding-left: 0px;
+    padding: 0px;
     padding-top: 6px;
     width: 180px;
   }
