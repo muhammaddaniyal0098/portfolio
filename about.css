@@ -199,13 +199,13 @@
     margin-left: 11px;
   }
   #about .left h1 {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 12px;
   }
   .ics,
   .bs,
   .bs2 {
-    font-size: 11px;
+    font-size: 10px;
     margin: 12px 0px;
   }
   .work1,
@@ -221,7 +221,7 @@
   .ics h3,
   .bs h3,
   .bs2 h3 {
-    font-size: 12px;
+    font-size: 11px;
   }
   .left .button {
     margin-top: 15px;
@@ -229,7 +229,8 @@
     margin-bottom: 5px;
   }
   #about .right {
-    padding: 6px 8px;
+    padding-left: 6px;
+    padding-top: 6px;
     width: 200px;
   }
   .right h2 {
