@@ -196,7 +196,7 @@
   }
   #about .left {
     width: 140px;
-    margin-left: 11px;
+    margin-right: 11px;
   }
   #about .left h1 {
     font-size: 12px;
@@ -234,7 +234,7 @@
     width: 200px;
   }
   .right h2 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .right h4 {
     font-size: 19px;
@@ -254,7 +254,7 @@
     width: 0%;
   }
   #footer {
-    font-size: 13px;
+    font-size: 10px;
     height: 38px;
   }
 }
