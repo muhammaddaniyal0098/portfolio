@@ -68,7 +68,7 @@ input:hover {
   position: absolute;
   height: 115%;
   width: 100%;
-  background: url(/con\ bg.jpg) no-repeat center;
+  background: url(./con\ bg.jpg) no-repeat center;
   z-index: -1;
 }
 @media screen and (max-width: 1130px) {
